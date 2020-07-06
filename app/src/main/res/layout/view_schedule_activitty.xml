@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.d3ifcool.timework.ViewScheduleActivitty"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <org.d3ifcool.timework.SlidingTab.SlidingTabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:layout_gravity="center"
+            android:background="#fff"
+            tools:ignore="UnusedAttribute" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"/>
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/pencil"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="addSchedule"
+            android:layout_gravity="right"
+            tools:ignore="ContentDescription,RtlHardcoded"
+            android:layout_marginEnd="16dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

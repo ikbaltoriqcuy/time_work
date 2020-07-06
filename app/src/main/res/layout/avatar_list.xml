@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/avatar1_image_view"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/tanay"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/avatar2_image_view"
+            android:layout_marginLeft="16dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/tanay"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/avatar3_image_view"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/tanay"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageView
+            android:id="@+id/avatar4_image_view"
+            android:layout_marginLeft="16dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/tanay"
+            tools:ignore="ContentDescription"
+            android:layout_marginStart="16dp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    tools:context="org.d3ifcool.timework.AccountAcivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:background="@color/colorPrimary">
+
+            <RelativeLayout
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                tools:ignore="UselessParent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/tanay"
+                    android:id="@+id/avatar_image_view"/>
+
+                <ImageButton
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/photo"
+                    android:layout_alignParentEnd="true"
+                    android:onClick="changeAvatar"
+                    android:contentDescription="@string/avatar_button_description" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="@string/text_username"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/value_username"
+                        android:textSize="24sp"
+                        android:id="@+id/username_text_view"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="@string/text_edit"
+                    android:textColor="#ff902f"
+                    android:layout_alignParentRight="true"
+                    android:onClick="editUsername"
+                    tools:ignore="RelativeOverlap"
+                    android:layout_alignParentEnd="true" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#808080"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:ignore="RelativeOverlap">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="@string/text_quote"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:id="@+id/quote_text_view"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="@string/text_edit"
+                    android:textColor="#ff902f"
+                    android:layout_alignParentRight="true"
+                    android:onClick="editQuote"
+                    tools:ignore="RelativeOverlap"
+                    android:layout_alignParentEnd="true" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#808080"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

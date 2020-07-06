@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.d3ifcool.timework.CreateProfileActivity"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/make_profile"
+        android:textSize="36sp"
+        android:layout_gravity="center"
+        android:textColor="#000"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="245dp">
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            tools:ignore="UselessParent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/tanay"
+                android:id="@+id/avatar_image_view"/>
+
+            <ImageButton
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/photo"
+                android:contentDescription="@string/image_button_description"
+                android:layout_alignParentEnd="true"
+                android:onClick="changeAvatar"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_username"
+        android:textSize="24sp"
+        android:textColor="#000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_username"
+        android:id="@+id/username_edit_text"/>
+
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_add_button"
+        android:layout_gravity="right"
+        android:onClick="createProfile"
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout>

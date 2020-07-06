@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.d3ifcool.timework.QuotesActivity">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_quote"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        tools:ignore="RtlHardcoded"
+        android:layout_alignParentBottom="true"
+        >
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/pencil"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="addQuotes"
+            android:layout_marginEnd="16dp"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+</RelativeLayout>

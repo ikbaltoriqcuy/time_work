@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">TimeWork</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="avatar_button_description">set avatar in Circle Image View</string>
+    <string name="value_username">Ikbal Toriq</string>
+    <string name="text_edit">Edit</string>
+
+    <string name="text_quote">Quote Saya</string>
+    <string name="text_add_quotes">Tambah Quotes</string>
+    <string name="hint_edit">tambah</string>
+    <string name="reset_text_button">Reset</string>
+
+    <string name="make_profile">Buat Profil</string>
+    <string name="image_button_description">to change avatar in circle image view</string>
+    <string name="hint_username">Username</string>
+    <string name="text_add_button">Buat</string>
+
+    <string name="text_username">Username</string>
+    <string name="edit_text_username">Username</string>
+    <string name="text_password">Password</string>
+    <string name="text_confirm_password">Confirm Password</string>
+    <string name="edit_text_password">password</string>
+    <string name="text_button_save">Save</string>
+    <string name="text_add_schedule">Tambah Kegiatan</string>
+    <string name="edit_text_add">tambah</string>
+    <string name="text_day">Hari</string>
+    <string name="default_day">Senin</string>
+    <string name="text_button_start">Mulai</string>
+    <string name="text_button_end">Akhir</string>
+    <string name="text_default_time">00:00</string>
+    <string name="text_info">Aktifkan Setiap Minggu</string>
+    <string name="text_button_reset">Reset</string>
+    <string name="add_text_button">Tambah</string>
+    <string name="text_edit_button">Edit</string>
+    <string name="text_delete_button">Hapus</string>
+    <string name="delete_message">Apakah anda yakin ?</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_quotes">Quotes</string>
+    <string name="tab_account">My Account</string>
+    <string name="current_tab">current_tab</string>
+    <string name="set_my_quote">Atur Sebagai Quoteku</string>
+    <!-- -->
+
+
+
+    <!-- Default Quotes -->
+    <string-array name="default_quotes">
+        <item> Berjuang terus tanpa henti </item>
+        <item> Kuatkan dirimu </item>
+        <item> Selalu Happy dalam menghadapi dunia </item>
+        <item> Perjuanganmu masih belum berakhir </item>
+    </string-array>
+
+    <!-- Days -->
+    <string-array name="days">
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+        <item>Minggu</item>
+    </string-array>
+</resources>
